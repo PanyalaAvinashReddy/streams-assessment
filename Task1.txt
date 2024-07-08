@@ -1,0 +1,19 @@
+Assignment 1:
+Take a class Fruit which contains the name & count of the fruit.
+Now let's pass the fruits.txt file from the command line.
+Our program has to calculate the count the number of occurrences of each line in a file
+and update the fruit name & count accordingly.
+
+Assignment2:
+Write a java program to add employees to a TreeSet based on a user defined comparator.
+1.    An Employee class is given to you. It defines the fields: Id, name, salary and age. It has getters/setters for each and constructors.
+2.    Create a class EmpComparator, that implements the comparator interface. The comparision of two employee objects should follow the rule below:
+•     Employees must be first sorted based on the ascending order of salaries. This means that the employee object that contains the lowest salary should come BEFORE the employees who have higher salaries
+•     If salaries are equal, sort based on the alphabetic order of their names.
+•     If salaries and names are equal then sort on the descending order of their age.
+3.    Create an EmployeeSet class.
+In this class add a TreeSet field that holds employee objects. Name this field as "empTreeSet". This TreeSet should add objects in the sorting order as defined by the EmpComparator class described above.
+
+Add Method addEmployee(Employee emp): this method should add the given employee to the TreeSet. If the comparator is defined correctly, this employee will be added in the correct place according to the sorting defined above. Return 0 on successful addition, and 1 for any error (null input or exception)
+
+Test your classes with various inputs.
